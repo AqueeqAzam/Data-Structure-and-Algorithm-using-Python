@@ -10,7 +10,7 @@ def f(n):
         return base_value
     return work + f(smaller_input)
 
-"""def fact(num):
+def fact(num):
     if num == 0 or num == 1:
         return 1  # base case
     return num * fact(num - 1)  # recursive case
@@ -37,7 +37,7 @@ def sum_of_list_ele(arr):
     return arr[0] + sum_of_list_ele(arr[1:])  # indexing + slicing.
 
 nums = [1, 2, 3, 4, 5, 6]
-print(sum_of_list_ele(nums))"""
+print(sum_of_list_ele(nums))
 
 def count_digit(num_str):
     if num_str == "":
